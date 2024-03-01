@@ -9,18 +9,34 @@
 /* Begin PBXBuildFile section */
 		752127612B913547004D20CC /* ComicPullListsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127602B913547004D20CC /* ComicPullListsApp.swift */; };
 		752127632B913547004D20CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127622B913547004D20CC /* ContentView.swift */; };
-		752127652B913547004D20CC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127642B913547004D20CC /* Item.swift */; };
 		752127672B913549004D20CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752127662B913549004D20CC /* Assets.xcassets */; };
 		7521276A2B913549004D20CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752127692B913549004D20CC /* Preview Assets.xcassets */; };
+		752127722B9168AB004D20CC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127712B9168AB004D20CC /* Person.swift */; };
+		752127742B9169D2004D20CC /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127732B9169D2004D20CC /* Comic.swift */; };
+		752127772B91895A004D20CC /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127762B91895A004D20CC /* PersonListView.swift */; };
+		752127792B919BBA004D20CC /* ComicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127782B919BBA004D20CC /* ComicListView.swift */; };
+		7521277B2B922FDF004D20CC /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521277A2B922FDF004D20CC /* PersonView.swift */; };
+		7521277D2B92315D004D20CC /* ComicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521277C2B92315D004D20CC /* ComicRowView.swift */; };
+		7521277F2B9233CA004D20CC /* AddComicsToPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521277E2B9233CA004D20CC /* AddComicsToPersonView.swift */; };
+		752127812B923E29004D20CC /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127802B923E29004D20CC /* AddPersonView.swift */; };
+		752127832B923F0C004D20CC /* AddComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752127822B923F0B004D20CC /* AddComicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7521275D2B913547004D20CC /* ComicPullLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicPullLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752127602B913547004D20CC /* ComicPullListsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicPullListsApp.swift; sourceTree = "<group>"; };
 		752127622B913547004D20CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		752127642B913547004D20CC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		752127662B913549004D20CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752127692B913549004D20CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		752127712B9168AB004D20CC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		752127732B9169D2004D20CC /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		752127762B91895A004D20CC /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		752127782B919BBA004D20CC /* ComicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListView.swift; sourceTree = "<group>"; };
+		7521277A2B922FDF004D20CC /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		7521277C2B92315D004D20CC /* ComicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicRowView.swift; sourceTree = "<group>"; };
+		7521277E2B9233CA004D20CC /* AddComicsToPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComicsToPersonView.swift; sourceTree = "<group>"; };
+		752127802B923E29004D20CC /* AddPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		752127822B923F0B004D20CC /* AddComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				752127602B913547004D20CC /* ComicPullListsApp.swift */,
-				752127622B913547004D20CC /* ContentView.swift */,
-				752127642B913547004D20CC /* Item.swift */,
+				752127702B916878004D20CC /* Models */,
+				752127752B91890D004D20CC /* Views */,
 				752127662B913549004D20CC /* Assets.xcassets */,
 				752127682B913549004D20CC /* Preview Content */,
 			);
@@ -68,6 +84,30 @@
 				752127692B913549004D20CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		752127702B916878004D20CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				752127712B9168AB004D20CC /* Person.swift */,
+				752127732B9169D2004D20CC /* Comic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		752127752B91890D004D20CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				752127762B91895A004D20CC /* PersonListView.swift */,
+				7521277A2B922FDF004D20CC /* PersonView.swift */,
+				752127622B913547004D20CC /* ContentView.swift */,
+				752127782B919BBA004D20CC /* ComicListView.swift */,
+				7521277C2B92315D004D20CC /* ComicRowView.swift */,
+				7521277E2B9233CA004D20CC /* AddComicsToPersonView.swift */,
+				752127802B923E29004D20CC /* AddPersonView.swift */,
+				752127822B923F0B004D20CC /* AddComicView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752127772B91895A004D20CC /* PersonListView.swift in Sources */,
+				752127742B9169D2004D20CC /* Comic.swift in Sources */,
 				752127632B913547004D20CC /* ContentView.swift in Sources */,
-				752127652B913547004D20CC /* Item.swift in Sources */,
+				7521277F2B9233CA004D20CC /* AddComicsToPersonView.swift in Sources */,
+				7521277D2B92315D004D20CC /* ComicRowView.swift in Sources */,
+				752127832B923F0C004D20CC /* AddComicView.swift in Sources */,
+				752127722B9168AB004D20CC /* Person.swift in Sources */,
+				752127792B919BBA004D20CC /* ComicListView.swift in Sources */,
+				752127812B923E29004D20CC /* AddPersonView.swift in Sources */,
 				752127612B913547004D20CC /* ComicPullListsApp.swift in Sources */,
+				7521277B2B922FDF004D20CC /* PersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
